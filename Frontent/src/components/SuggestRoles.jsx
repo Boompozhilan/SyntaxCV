@@ -27,7 +27,7 @@ export default function SuggestRoles() {
 
     try {
         // Calling your brand new backend endpoint!
-        const response = await fetch("http://localhost:8000/suggest-roles", {
+        const response = await fetch("https://syntaxcv.onrender.com/suggest-roles", {
             method: "POST",
             body: formData,
         });
