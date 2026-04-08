@@ -33,7 +33,7 @@ export default function App() {
     formData.append("description", description);
 
     try {
-      const res = await fetch("http://localhost:8000/analyze", {
+      const res = await fetch("https://syntaxcv.onrender.com/analyze", {
         method: "POST",
         body: formData,
       });
